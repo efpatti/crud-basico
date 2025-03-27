@@ -15,7 +15,7 @@ document.addEventListener("DOMContentLoaded", () => {
                          <td class="py-4 px-6">${user.name}</td>
                          <td class="py-4 px-6">${user.type}</td>
                          <td class="py-4 px-6 text-center space-x-2">
-                         <button onclick="editUser(${user.id})" class="text-red-500 hover:text-yellow-700">Editar</button>
+                         <button onclick="editUser(${user.id}, '${user.name}', '${user.type}')" class="text-red-500 hover:text-yellow-700">Editar</button>
                              <button onclick="deleteUser(${user.id})" class="text-red-500 hover:text-red-700">Excluir</button>
                          </td>
                      </tr>
